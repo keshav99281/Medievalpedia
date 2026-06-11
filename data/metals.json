@@ -1,0 +1,4 @@
+[
+  { "name": "Mithral", "description": "Lightweight magical metal.", "origin": "Deep mines", "compatibleElements": ["Air", "Light"] },
+  { "name": "Adamantine", "description": "Nearly indestructible.", "origin": "Rare veins", "compatibleElements": ["Earth"] }
+]

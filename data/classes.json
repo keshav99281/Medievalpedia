@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Wizard",
+    "description": "Masters of arcane magic.",
+    "compatibleEquipment": ["Staff", "Robes"],
+    "compatibleElements": ["Fire", "Ice", "Lightning"]
+  },
+  {
+    "name": "Paladin",
+    "description": "Holy knights with divine powers.",
+    "compatibleEquipment": ["Sword", "Shield", "Plate Armor"],
+    "compatibleElements": ["Light", "Radiant"]
+  }
+]

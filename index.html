@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fantasy Encyclopedia</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="side-nav">
+    <div class="nav-header">
+      <h3>📖 Categories</h3>
+      <button class="nav-close" aria-label="Close navigation">✕</button>
+    </div>
+    <ul class="nav-links">
+      <li><a href="#races">🧬 Races</a></li>
+      <li><a href="#classes">⚔️ Classes</a></li>
+      <li><a href="#elements">🌌 Elements</a></li>
+      <li><a href="#metals">⚒️ Metals</a></li>
+      <li><a href="#skills">📚 Skills</a></li>
+    </ul>
+    <div class="nav-footer">
+      <a href="https://github.com/YOUR-USERNAME/fantasy-encyclopedia/issues" target="_blank" class="suggest-link">💡 Suggest Data</a>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <header class="top-bar">
+      <div class="header-left">
+        <button class="nav-toggle" aria-label="Toggle navigation">☰</button>
+        <h1>📖 Medieval Fantasy Encyclopedia</h1>
+      </div>
+      <div class="header-right">
+        <div class="search-container">
+          <input type="text" id="search-input" placeholder="Search entries..." class="search-input" aria-label="Search">
+        </div>
+        <button id="random-btn" class="random-btn" aria-label="Random entry">🎲 Random</button>
+        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
+      </div>
+    </header>
+
+    <div class="content-wrapper">
+      <div class="category" id="races">
+        <h2>🧬 Races <button class="toggle" aria-expanded="false">+</button></h2>
+        <div class="content hidden"></div>
+      </div>
+
+      <div class="category" id="classes">
+        <h2>⚔️ Classes <button class="toggle" aria-expanded="false">+</button></h2>
+        <div class="content hidden"></div>
+      </div>
+
+      <div class="category" id="elements">
+        <h2>🌌 Elements <button class="toggle" aria-expanded="false">+</button></h2>
+        <div class="content hidden"></div>
+      </div>
+
+      <div class="category" id="metals">
+        <h2>⚒️ Metals <button class="toggle" aria-expanded="false">+</button></h2>
+        <div class="content hidden"></div>
+      </div>
+
+      <div class="category" id="skills">
+        <h2>📚 Skills <button class="toggle" aria-expanded="false">+</button></h2>
+        <div class="content hidden"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

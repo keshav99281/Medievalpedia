@@ -1,0 +1,4 @@
+[
+  { "name": "Fire", "color": "#ff4500", "environment": "Volcanoes, deserts" },
+  { "name": "Water", "color": "#1e90ff", "environment": "Oceans, rivers" }
+]

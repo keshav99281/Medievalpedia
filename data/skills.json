@@ -1,0 +1,4 @@
+[
+  { "name": "Swordsmanship", "description": "Mastery of blades.", "impact": 4 },
+  { "name": "Alchemy", "description": "Potion brewing and transmutation.", "impact": 5 }
+]
