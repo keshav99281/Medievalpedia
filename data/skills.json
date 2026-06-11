@@ -1,4 +1,888 @@
 [
-  { "name": "Swordsmanship", "description": "Mastery of blades.", "impact": 4 },
-  { "name": "Alchemy", "description": "Potion brewing and transmutation.", "impact": 5 }
+  {
+    "name": "[Element] Ball",
+    "description": "Small energy orb.",
+    "fullDescription": "Conjures a compact, spherical orb of compressed energy to launch at a single opponent.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Arrow",
+    "description": "Fast piercing shot.",
+    "fullDescription": "Manifests a piercing, high-velocity projectile ideal for long-range marksmen.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Blade",
+    "description": "Elemental weapon edge.",
+    "fullDescription": "Coats a physical weapon or creates a solid energy edge to add elemental damage to melee swings.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Shield",
+    "description": "Energy barrier.",
+    "fullDescription": "Erects a flat, floating plane of energy in front of the caster to block incoming frontal attacks.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Spark",
+    "description": "Tiny burst.",
+    "fullDescription": "Discharges a tiny, sudden burst of energy from the fingertips to distract or inflict minor status triggers.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Mist",
+    "description": "Obscuring vapor.",
+    "fullDescription": "Releases a low-density, localized vapor cloud that obscure vision and lightly applies elemental attributes.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Strike",
+    "description": "Elemental punch/kick.",
+    "fullDescription": "Infuses a standard physical punch or kick with a sudden, explosive elemental impact.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Spray",
+    "description": "Short energy stream.",
+    "fullDescription": "Emits a continuous, short-range stream of raw energy from the palms, resembling a flamethrower.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Step",
+    "description": "Speed trail.",
+    "fullDescription": "Leaves a brief elemental trail underfoot that grants a minor burst of movement speed.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Trap",
+    "description": "Glyph trigger.",
+    "fullDescription": "Places an invisible glyph on the floor that erupts with elemental force when stepped on by an enemy.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Needle",
+    "description": "Cluster of spikes.",
+    "fullDescription": "Fires a rapid cluster of microscopic, needle-sharp energy points to pierce light armor defenses.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Aura",
+    "description": "Thin energy layer.",
+    "fullDescription": "Envelops the user’s body in a thin, visible layer of energy, slightly boosting local elemental resistance.",
+    "impact": 1
+  },
+  {
+    "name": "[Element] Wall",
+    "description": "Solid barrier.",
+    "fullDescription": "Raises a tall, solid barrier from the ground to split the battlefield and block enemy pathing.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Lance",
+    "description": "Heavy spear throw.",
+    "fullDescription": "Forges a heavy, high-penetration throwing spear capable of piercing through multiple aligned targets.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Ring",
+    "description": "Expanding shockwave.",
+    "fullDescription": "Expels an expanding, horizontal shockwave ring outwards from the user to push back nearby flankers.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Whip",
+    "description": "Flexible tether.",
+    "fullDescription": "Shapes a flexible, mid-range tether used to pull, bind, or slash opponents from a distance.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Cloak",
+    "description": "Protective energy coat.",
+    "fullDescription": "Clothes the user in thick energy that damages melee attackers and protects against matching element debuffs.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Trap",
+    "description": "Hazardous puddle.",
+    "fullDescription": "Drops a continuous, hazardous puddle on the terrain that slows down and damages anyone standing inside it.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Clone",
+    "description": "Exploding decoy.",
+    "fullDescription": "Crafts an unstable decoy duplicate that explodes with elemental feedback when destroyed by an enemy.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Burst",
+    "description": "Localized explosion.",
+    "fullDescription": "Triggers a localized explosion directly centered on an object or a pre-marked target from afar.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Shards",
+    "description": "Floating projectiles.",
+    "fullDescription": "Summons a floating semi-circle of sharp projectiles that can be fired sequentially or all at once.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Breath",
+    "description": "Cone attack.",
+    "fullDescription": "Channels an upfront, medium-range cone of dense elemental destruction mimicking a lesser monster attack.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Bullet",
+    "description": "Rapid pellets.",
+    "fullDescription": "Fires high-frequency, rapid-succession pellets of concentrated energy at the cost of high stamina.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Bind",
+    "description": "Energy shackles.",
+    "fullDescription": "Manifests energy shackles around a target’s limbs to temporarily lock their physical mobility.",
+    "impact": 2
+  },
+  {
+    "name": "[Element] Torrent",
+    "description": "Continuous beam.",
+    "fullDescription": "Unleashes a wide, continuous linear beam of devastating energy that requires stationary channeling.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Armor",
+    "description": "Energy suit.",
+    "fullDescription": "Materializes a heavy, full-body suit of crystallized energy that significantly raises maximum health values.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Spike",
+    "description": "Jagged column.",
+    "fullDescription": "Commands a massive jagged column to erupt violently from directly underneath an enemy's feet.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Vortex",
+    "description": "Swirling anomaly.",
+    "fullDescription": "Generates a swirling gravitational anomaly that pulls loose objects and enemies toward its center.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Rain",
+    "description": "Projectile shower.",
+    "fullDescription": "Opens a portal in the sky to shower a medium-sized zone with hundreds of falling energy projectiles.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Mine",
+    "description": "Buried explosive.",
+    "fullDescription": "Buries a delayed-activation explosive charges that detonate with massive area-of-effect damage.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Wave",
+    "description": "Sweeping slash.",
+    "fullDescription": "Swings a weapon to discharge a sweeping, crescent-shaped kinetic cutting projection across the floor.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Enchant",
+    "description": "Gear infusion.",
+    "fullDescription": "Temporarily alters the basic material properties of an ally's gear to mimic a chosen element.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Bomb",
+    "description": "Heavy detonation.",
+    "fullDescription": "Hurls a heavy, slow-moving projectile that detonates into a lingering cloud of volatile elemental residue.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Chains",
+    "description": "Mana drain binds.",
+    "fullDescription": "Summons tracking energy constructs that lock onto an enemy and drain their mana pools over time.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Pillar",
+    "description": "Vertical beam.",
+    "fullDescription": "Concentrates energy into a thick vertical beam that blasts straight upward from a specific ground point.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Hammer",
+    "description": "Spectral slam.",
+    "fullDescription": "Creates a massive, spectral blunt weapon overhead that slams down to shatter enemy guarding stances.",
+    "impact": 3
+  },
+  {
+    "name": "[Element] Tempest",
+    "description": "Localized storm.",
+    "fullDescription": "Stirs up a violent, localized storm system that dominates a large section of the battlefield map.",
+    "impact": 4
+  },
+  { 
+    "name": "[Element] Cage", 
+    "description": "Energy prison.", 
+    "fullDescription": "Traps a target inside an impenetrable geometric cube of compressed energy, isolating them completely.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Golem", 
+    "description": "Elemental soldier.", 
+    "fullDescription": "Summons a powerful elemental construct to fight alongside the caster.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Beam", 
+    "description": "Piercing laser.", 
+    "fullDescription": "Fires a concentrated beam of energy that pierces through multiple targets.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Eruption", 
+    "description": "Geothermal blast.", 
+    "fullDescription":"Causes a massive geothermal style explosion to fracture the earth, throwing up debris and energy.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Nova", 
+    "description": "Blinding flash.", 
+    "fullDescription": "Releases a massive, blinding flash of omnidirectional energy expanding rapidly from the caster’s body.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Dragon", 
+    "description": "Energy dragon.", 
+    "fullDescription": "Summons a colossal, serpentine dragon made of pure energy to wreak havoc on the battlefield.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Meteor", 
+    "description": "Falling mass.", 
+    "fullDescription": "Hurls a massive celestial object from the sky to crash into the battlefield.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Tsunami", 
+    "description": "Massive wave.", 
+    "fullDescription": "Rolls a massive, vertical tidal wave of elemental force across the field, clearing out all light units.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Curse", 
+    "description": "Permanent debuff.", 
+    "fullDescription": "Afflicts a target with a permanent negative status effect.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Domain", 
+    "description": "Personal field.", 
+    "fullDescription": "Covers the immediate area in a personal field, boosting the user's stats while crippling trespassers.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Phantom", 
+    "description": "Energy wraith.", 
+    "fullDescription": "Summons a spectral entity made of pure energy to assist the caster in battle.",
+    "impact": 4 
+  },
+  { 
+    "name": "[Element] Cataclysm", 
+    "description": "World disaster.", 
+    "fullDescription": "Completely alters the local environment, triggering a continent-scale geographic permanent disaster.",
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Singularity", 
+    "description": "Collapsing point.", 
+    "fullDescription": "Condenses energy into a microscopic point that collapses, erasing all space and objects within radius.",
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Judgment", 
+    "description": "Cosmic beam.",
+    "fullDescription": "Summons an absolute cosmic descending execution beam from the outer atmosphere down onto the world.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Eclipse", 
+    "description": "Sky blackout.",
+    "fullDescription": "Swallows the sky in a massive elemental blanket, completely cutting off natural sunlight or ambient external mana.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Rebirth", 
+    "description": "Resurrection.",
+    "fullDescription": "Triggers a total cellular and spiritual reconstruction, resurrecting the caster at peak structural power levels.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Annihilation", 
+    "description": "Disintegration wave.",
+    "fullDescription": "Fires an unstable, multi-layered wave of energy that disintegrates targets down to their base molecular structures.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Genesis", 
+    "description": "Create species.", 
+    "fullDescription": "Rewrites local baseline physics laws, creating an entirely brand-new species or micro-biome out of nothing.",
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Apocalypse", 
+    "description": "City bombardment.",
+    "fullDescription": "Unfurls a massive array of hundreds of magic circles that simultaneously bomb a city-sized territory.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Avatar", 
+    "description": "Energy giant.",
+    "fullDescription": "The user sheds their mortal shell, temporarily turning into a giant being composed of pure, absolute energy.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Execution", 
+    "description": "Instant kill.",
+    "fullDescription": "An absolute, un-blockable single-target strike that instantly kills any foe sitting below a specific health bar ratio.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Extinction", 
+    "description": "Attribute removal.",
+    "fullDescription": "Emits a slow-moving, global shockwave that permanently strips away specific elemental attributes from targets.", 
+    "impact": 5 
+  },
+  { 
+    "name": "[Element] Overlord", 
+    "description": "Elemental command.",
+    "fullDescription": "Grants the caster absolute, unchallenged mental command over every lesser elemental manifestation or entity in the world.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Hellfire Eruption", 
+    "description": "Black flames erupt.", 
+    "fullDescription": "Erupts black flames from the ground that burn until the target is reduced to ash.", 
+    "impact": 1 
+  },
+  { 
+    "name": "Combustion Trigger", 
+    "description": "Detonates oxygen pockets.", 
+    "fullDescription": "Instantly detonates the oxygen pockets surrounding a target, causing a sudden, localized explosion.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Phoenix Rebirth", 
+    "description": "Revives in flames.", 
+    "fullDescription": "A passive cheat-death spell that consumes the user in flames upon a fatal blow and revives them with partial health.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Heat Wave Mirage", 
+    "description": "Illusions via heat.", 
+    "fullDescription": "Distorts the air with extreme heat, creating illusions while blinding opponents with thermal radiation.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Supernova Core", 
+    "description": "Mini-star detonation.", 
+    "fullDescription": "Generates a mini-star in the caster's hand that slowly cooks everything within a mile radius until it detonates.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Water Breathing", 
+    "description": "Breathe underwater.", 
+    "fullDescription": "Grants the target the permanent biological ability to filter oxygen from water.", 
+    "impact": 1 
+  },
+  { 
+    "name": "Hydraulic Sever", 
+    "description": "Pressurized water cut.", 
+    "fullDescription": "Fires an ultra-thin, hyper-pressurized line of water that slices through armor and metal shields like a laser.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Blood Boil", 
+    "description": "Heats blood.", 
+    "fullDescription": "Targets the water molecules inside an enemy's bloodstream, heating them rapidly to cause internal tissue damage.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Dehydration Touch", 
+    "description": "Extracts moisture.", 
+    "fullDescription": "Instantly extracts all moisture from a living target, leaving them a desiccated husk.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Tidal Convergence", 
+    "description": "Massive tsunami.", 
+    "fullDescription": "Commands the nearest major body of water to rise up and roll across the landscape as a massive tsunami.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Seismic Sensor", 
+    "description": "Detects terrain.", 
+    "fullDescription": "Allows the caster to map out structural terrain and detect hidden tunnels by sending vibrations through the ground.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Petrification Gaze", 
+    "description": "Turns tissue to stone.", 
+    "fullDescription": "Gradually turns organic tissue into solid rock through direct eye contact or targeted beams.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Continental Fracture", 
+    "description": "Massive chasm.", 
+    "fullDescription": "Slams the ground to tear open a bottomless, miles-long chasm, swallowing entire armies.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Vacuum Sphere", 
+    "description": "Removes air.", 
+    "fullDescription": "Removes all air around an enemy's head, completely suffocating them and preventing voice-activated spellcasting.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Sonic Boom Blade", 
+    "description": "Air slicing wave.", 
+    "fullDescription": "Compresses air currents into a sharp, invisible kinetic slicing wave that travels faster than sound.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Atmospheric Lift", 
+    "description": "Levitation flight.", 
+    "fullDescription": "Manipulates low-pressure zones to effortlessly levitate and fly across vast distances.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Electromagnetic Pulse", 
+    "description": "Scrambles devices.", 
+    "fullDescription": "Releases a static surge that permanently paralyzes mechanical constructs or scrambles magi-tech devices.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Nerve Overload", 
+    "description": "Shocks nervous system.", 
+    "fullDescription": "Delivers a minor shock to an opponent's nervous system, scrambling their motor skills and causing involuntary spasms.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Chain Lightning Storm", 
+    "description": "Jumping arcs.", 
+    "fullDescription": "Discharges a cloud-shattering arc of electricity that jumps from target to target, multiplying in damage with each bounce.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Absolute Zero Dome", 
+    "description": "Freezes molecules.", 
+    "fullDescription": "Drops the local temperature to absolute zero, completely stopping molecular movement and freezing magic arrays mid-air.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Frostbite Kiss", 
+    "description": "Freezes skin.", 
+    "fullDescription": "Freezes the moisture on an enemy's skin instantly, causing severe tissue necrosis and numbing their reflexes.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Glacial Sepulcher", 
+    "description": "Ice stasis prison.", 
+    "fullDescription": "Traps a target inside a crystalline pillar of ice that seals their life force away in eternal stasis.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Photosynthetic Surge", 
+    "description": "Sunlight healing.", 
+    "fullDescription": "Draws light energy from the sun to rapidly regenerate the caster's health and stamina.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Parasitic Seed", 
+    "description": "Mana-draining spore.", 
+    "fullDescription": "Plants a microscopic spore inside an enemy that feeds on their mana to sprout external vines.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Thorn Labyrinth", 
+    "description": "Wall of briars.", 
+    "fullDescription": "Erupts a massive wall of razor-sharp, self-regenerating briars that bleed anyone who touches them.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Ferrous Pull", 
+    "description": "Magnetizes armor.", 
+    "fullDescription": "Magnetizes an enemy’s weapons or heavy armor, forcibly pulling them toward the caster or pinning them to the floor.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Liquefy Alloy", 
+    "description": "Melts weapons.", 
+    "fullDescription": "Instantly turns an opponent's metallic sword or shield into a useless, boiling puddle of molten slag.", 
+    "impact": 3 
+  },   
+  { 
+    "name": "Volcanic Vent", 
+    "description": "Spews magma.", 
+    "fullDescription": "Pierces the earth to create a direct conduit to the world's mantle, spewing continuous rivers of sticky magma.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Warp Gate", 
+    "description": "Spatial portals.", 
+    "fullDescription": "Tears open two interconnected spatial portals across vast distances for instantaneous mass transport.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Gravitational Collapse", 
+    "description": "Crushing gravity.", 
+    "fullDescription": "Multiplies the local gravity threshold tenfold, flattening enemies to the floor and crushing bones.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Pocket Dimension", 
+    "description": "Banish to void.", 
+    "fullDescription": "Banishes a target into an isolated, empty spatial vacuum outside the fabric of reality.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Temporal Acceleration", 
+    "description": "Fast-forward time.", 
+    "fullDescription": "Speeds up the cellular time clock of a wound, forcing it to instantly heal—or fast-forwarding an object's rust and decay.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Chronos Paradox", 
+    "description": "Time loop.", 
+    "fullDescription": "Places an enemy in a continuous three-second time loop, repeating their last action endlessly.", 
+    "impact": 4 
+  },
+  { 
+    "name": "World Rewind", 
+    "description": "Battlefield rewind.", 
+    "fullDescription": "Rewinds the time state of the entire battlefield by exactly ten seconds, reviving dead allies.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Singularity Rift", 
+    "description": "Deletes matter.", 
+    "fullDescription": "Opens a microscopic hole of pure nothingness that deletes physical and magical matter out of existence upon contact.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Neurotoxin Cloud", 
+    "description": "Toxic gas.", 
+    "fullDescription": "Releases a thick violet gas that causes blindness, hallucinations, and rapid motor skill failure.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Marrow Melt", 
+    "description": "Acid jet.", 
+    "fullDescription": "Fires a jet of highly concentrated chemical acid that eats away skin, muscle, and bone in seconds.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Blood Puppet", 
+    "description": "Controls limbs.", 
+    "fullDescription": "Manipulates the iron and liquid iron inside an exposed wound, taking physical command of the target's limbs.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Crimson Pact", 
+    "description": "Sacrificial boost.", 
+    "fullDescription": "Sacrifices a portion of the caster's own physical health pool to double the damage of their next spell strike.", 
+    "impact": 2 
+  },
+
+  { 
+    "name": "Ossuary Armor", 
+    "description": "Bone armor.", 
+    "fullDescription": "Rips the skeletons out of nearby corpses to weave a dense, macabre armor set around the caster.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Corpse Explosion", 
+    "description": "Exploding remains.", 
+    "fullDescription": "Detonates a fallen enemy’s physical remains, turning their bone shards into lethal, shrapnel-filled explosions.", 
+    "impact": 3 
+  },
+
+  { 
+    "name": "Eardrum Rupture", 
+    "description": "Deafening pitch.", 
+    "fullDescription": "Emits an ultra-high frequency acoustic pitch that permanently deafens targets and shatters glass.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Resonance Shatter", 
+    "description": "Shield vibration break.", 
+    "fullDescription": "Matches the molecular frequency of an enemy's shield, causing it to explode into dust through vibration alone.", 
+    "impact": 4 
+  },
+
+  { 
+    "name": "Dream Eat", 
+    "description": "Mana-draining nightmare.", 
+    "fullDescription": "Traps a sleeping or dazed enemy in a permanent nightmare, feeding on their mana pool while they remain catatonic.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Cognitive Inversion", 
+    "description": "Sensory swap.", 
+    "fullDescription": "Swaps an enemy’s sensory perceptions, making left feel like right, and up feel like down.", 
+    "impact": 4 
+  },
+
+  { 
+    "name": "Purge Corruption", 
+    "description": "Removes curses.", 
+    "fullDescription": "Instantly evaporates curses, demonic seals, parasitic infections, and shadow magic.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Judgment Day", 
+    "description": "Divine pillar.", 
+    "fullDescription": "Calls down a colossal pillar of pure, unfiltered divine energy from the troposphere onto a designated city grid.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Shadow Stitch", 
+    "description": "Pins shadow.", 
+    "fullDescription": "Pins an opponent’s physical shadow to the floor with an enchanted dagger, entirely paralyzing their true body.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Nightmare Shroud", 
+    "description": "Fear-inducing blindness.", 
+    "fullDescription": "Blinds a target by covering their eyes in sentient shadows that project their deepest psychological fears.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Cosmic Adaptability", 
+    "description": "Fast learning trait.", 
+    "fullDescription": "Passive trait that doubles the learning and mastery acquisition speed of any new weapon or magic school.", 
+    "impact": 1 
+  },
+  { 
+    "name": "Spirit Sight", 
+    "description": "Sees mana flow.", 
+    "fullDescription": "Allows the user to perceive the flow of ambient mana lines, hidden magical traps, and invisible spirits.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Subterranean Echo", 
+    "description": "Detects underground.", 
+    "fullDescription": "Grants a spatial radar sense through the feet to detect moving underground threats, hollow walls, and hidden mineral veins.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Feral Surge", 
+    "description": "Adrenaline burst.", 
+    "fullDescription": "Triggers an instinctive burst of adrenaline, doubling short-range movement speed and raw physical striking power for 10 seconds.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Draconic Majesty", 
+    "description": "Aura of dominance.", 
+    "fullDescription": "Emits a faint, passive aura of draconic weight that lowers the attack attributes of weaker surrounding monster races.", 
+    "impact": 3 
+  },
+
+  { 
+    "name": "Calamity Breath", 
+    "description": "Cataclysmic energy.", 
+    "fullDescription": "Discharges a cataclysmic torrent of pure, un-elementalized draconic energy that annihilates matter, structures, and magic fields.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Siren Call", 
+    "description": "Charm via song.", 
+    "fullDescription": "Uses vocal frequencies to completely charm, disorient, or mentally dominate land-dwelling targets near bodies of water.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Nocturnal Mist", 
+    "description": "Mist escape.", 
+    "fullDescription": "Allows the user to dissolve their physical body into a cloud of ageless, invulnerable bats or shadow mist to escape danger.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Angel Wings", 
+    "description": "Holy flight.", 
+    "fullDescription": "Grants permanent 3D flight mobility using holy feathered wings, completely bypassing land terrain obstacles.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Ethereal Phase", 
+    "description": "Non-corporeal pass.", 
+    "fullDescription": "Allows the user to turn temporarily non-corporeal, passing directly through solid doors, walls, and non-enchanted weapons.", 
+    "impact": 4 
+  },
+
+  { 
+    "name": "Calculated Protocol", 
+    "description": "Precision logic.", 
+    "fullDescription": "Speeds up mind processing, eliminating casting failures and granting a permanent bonus to hitting structural weaknesses.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Guerilla Pack", 
+    "description": "Goblin synergy.", 
+    "fullDescription": "Grants a small, stacking attribute bonus to strength and agility for every allied goblin fighting within the same zone.", 
+    "impact": 1 
+  },
+  { 
+    "name": "Warlord Intimidation", 
+    "description": "Fear roar.", 
+    "fullDescription": "A booming roar that inflicts a fear status, paralyzing lesser combatants and interrupting enemy spellcasters.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Hive Network", 
+    "description": "Shared senses.", 
+    "fullDescription": "Connects sensory perceptions across all swarm members, preventing anyone from being surprised, flanked, or backstabbed.", 
+    "impact": 4 
+  },
+
+  { 
+    "name": "Draconic Scales", 
+    "description": "Reflective skin.", 
+    "fullDescription": "Grants hardened biological skin patches that naturally reflect a portion of low-tier physical damage back at attackers.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Dhampir Regeneration", 
+    "description": "Blood healing.", 
+    "fullDescription": "Allows the user to auto-heal surface wounds over time without daylight burning penalties, but requires occasional blood consumption.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Half-Elf Harmony", 
+    "description": "Dual affinity.", 
+    "fullDescription": "Combines human flexibility with elven magic sensitivity, allowing the user to dual-wield physical weapons while casting spells.", 
+    "impact": 2 
+  },
+
+  { 
+    "name": "Thermal Retribution", 
+    "description": "Heat retaliation.", 
+    "fullDescription": "Covers the user’s body in a micro-heat layer that burns any enemy who lands a close-quarters melee strike.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Fluid Counter", 
+    "description": "Liquid evasion.", 
+    "fullDescription": "Increases physical evasion rates by allowing the user's body to instinctively sway out of weapon paths like liquid.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Rooted Stance", 
+    "description": "Immovable stance.", 
+    "fullDescription": "Grants total immunity to knockbacks, trips, or forced battlefield displacement as long as both feet touch the soil.", 
+    "impact": 1 
+  },
+  { 
+    "name": "Vacuum Dodge", 
+    "description": "Slipstream speed.", 
+    "fullDescription": "Creates a thin slipstream pocket around the body, lessening air friction to boost maximum dashing speed.", 
+   "impact": 3 
+  },
+  { 
+   "name": "Static Discharge", 
+   "description":"Paralyzing block.", 
+   "fullDescription":"Adds a chance to paralyze attackers for 1 second whenever the user blocks a hit with a weapon or shield.", 
+   "impact": 3 
+  },
+  { 
+    "name": "Magnetic Deflection", 
+    "description": "Deflects projectiles.", 
+    "fullDescription": "Creates a passive aura that warps local air pressure to push metallic arrows and throwing daggers off-target.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Molten Retaliation", 
+    "description": "Melts weapons.", 
+    "fullDescription": "Melts incoming weapon durability values upon impact, leaving regular iron swords brittle and broken.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Shatter Frequency", 
+    "description": "Armor bypass.",     
+    "fullDescription": "Allows the user's physical attacks to ignore a set percentage of an item's metal armor rating via harmonic vibration.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Venomous Blood", 
+    "description": "Toxic retaliation.", 
+    "fullDescription": "Splatters toxic fluid onto attackers whenever the user takes a cutting or piercing wound.", 
+    "impact": 2 
+  },
+
+  { 
+    "name": "Gravitational Anchor", 
+    "description": "Weight control.", 
+    "fullDescription": "Increases the user's effective physical weight on command, preventing them from being lifted by tornadoes or spatial pulls.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Chrono Backtrack", 
+    "description": "Health rewind.", 
+    "fullDescription": "A legendary passive that loops the user's health pool backward by 3 seconds if they receive a fatal blow once per day.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Null Void", 
+    "description": "Spell erasure.", 
+    "fullDescription": "Creates an invisible, absolute filtration barrier that automatically erases any incoming low-to-mid tier spell projectile.", 
+    "impact": 5 
+  },
+  { 
+    "name": "Divine Aegis", 
+    "description": "Holy shield.", 
+    "fullDescription": "Grants a heavy, passive defensive shield buffer that completely immunizes the user against dark curses and necromancy.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Umbral Blend", 
+    "description": "Stealth boost.", 
+    "fullDescription": "Increases stealth effectiveness and physical damage attributes by 30% when operating in dim light or nighttime.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Overload Core", 
+    "description": "Mana overflow.", 
+    "fullDescription": "Converts any excess mana gained beyond maximum capacity into explosive spell damage on the next cast.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Weapon Mastery", 
+    "description": "Boosts weapon damage.", 
+    "fullDescription": "Permanently increases physical damage scaling across all basic swords, axes, maces, and polearms.", 
+    "impact": 2 
+  },
+  { 
+    "name": "Shield Wall Paradigm", 
+    "description": "Enhanced blocking.", 
+    "fullDescription": "Doubles the active block angle and defense values of any equipped metal shield against frontal barrages.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Vitality Threshold", 
+    "description": "Power at low HP.", 
+    "fullDescription": "Increases raw physical attack power proportionally as the user’s overall health pool drops lower.", 
+    "impact": 3 
+  },
+  { 
+    "name": "Vitals Exposure", 
+    "description": "Weak point vision.", 
+    "fullDescription": "Grants a permanent, passive vision overlay highlighting the absolute weakest structural parts of an enemy's body.", 
+    "impact": 4 
+  },
+  { 
+    "name": "Trajectory Calculation", 
+    "description": "Accurate arrows.", 
+    "fullDescription": "Automatically factors in wind speed and elevation drops, eliminating long-range arrow inaccuracy.",
+    "impact":4
+  }
 ]
+

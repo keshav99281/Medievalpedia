@@ -1,18 +1,211 @@
 [
   {
+    "name": "Human",
+    "description": "Adaptable and balanced.",
+    "strengths": ["Learning speed", "Balance", "Diplomacy"],
+    "weaknesses": ["No resistances", "No special senses", "Short lifespan"],
+    "attributes": 
+    { 
+      "hp": 1.0, 
+      "mana": 1.0, 
+      "agility": 1.0, 
+      "strength": 1.0, 
+      "stamina": 1.0 
+    },
+    "recommendedClasses": ["Warrior", "Knight", "Mage"]
+  },
+  {
+    "name": "Dragon",
+    "description": "Ancient apex predators.",
+    "strengths": ["High HP", "Elemental breath", "Flight"],
+    "weaknesses": ["Huge size", "Slow reproduction", "Targeted by slayers"],
+    "attributes": 
+    { "hp": 5.0, 
+    "mana": 3.0, 
+    "agility": 0.8, 
+    "strength": 5.0, 
+    "stamina": 4.0 
+  },
+    "recommendedClasses": ["Overlord", "Calamity Mage", "Ancient Vanguard"]
+  },
+  {
+    "name": "Merfolk",
+    "description": "Aquatic rulers of seas.",
+    "strengths": ["Water speed", "Water magic", "Pressure immunity"],
+    "weaknesses": ["Slow on land", "Needs hydration", "Weak to fire/lightning"],
+    "attributes": 
+    { 
+      "hp": 1.1, 
+      "mana": 1.4, 
+      "agility": 1.8, 
+      "strength": 1.1, 
+      "stamina": 1.3 
+    },
+    "recommendedClasses": ["Siren", "Ocean Shaman", "Tide Hunter"]
+  },
+  {
     "name": "Elf",
     "description": "Graceful beings with affinity for magic.",
-    "strengths": ["Agility", "Mana"],
-    "weaknesses": ["Lower HP"],
-    "attributes": { "hp": 0.9, "mana": 1.3, "agility": 1.4, "strength": 0.8, "stamina": 0.9 },
+    "strengths": ["Mana", "Vision", "Speed"],
+    "weaknesses": ["Fragile", "Low strength", "Weak to impacts"],
+    "attributes": 
+    { 
+      "hp": 0.7, 
+      "mana": 1.9, 
+      "agility": 1.5, 
+      "strength": 0.6, 
+      "stamina": 0.8 
+    },
     "recommendedClasses": ["Wizard", "Ranger", "Druid"]
   },
   {
+    "name": "Dwarf",
+    "description": "Durable subterranean smiths.",
+    "strengths": ["Resistant", "Darkvision", "Stamina"],
+    "weaknesses": ["Slow", "Poor magic", "Low evasion"],
+    "attributes": 
+    { 
+      "hp": 1.6, 
+      "mana": 0.3, 
+      "agility": 0.6, 
+      "strength": 1.5, 
+      "stamina": 1.8 
+    },
+    "recommendedClasses": ["Guardian", "Runesmith", "Berserker"]
+  },
+  {
+    "name": "Beastkin",
+    "description": "Animal-featured demi-humans.",
+    "strengths": ["Burst speed", "Senses", "Impact damage"],
+    "weaknesses": ["Combat rage", "Low logic", "Weak to illusions"],
+    "attributes": 
+    { 
+      "hp": 1.2, 
+      "mana": 0.4, 
+      "agility": 1.7, 
+      "strength": 1.4, 
+      "stamina": 1.2 
+    },
+    "recommendedClasses": ["Monk", "Assassin", "Beast Tamer"]
+  },
+  {
+    "name": "Demon",
+    "description": "Dark realm powerhouses.",
+    "strengths": ["Hybrid growth", "Fire immunity", "Fear aura"],
+    "weaknesses": ["Weak to holy", "Low regen on sacred ground", "Negative faction standing"],
+    "attributes": 
+    { 
+      "hp": 1.3, 
+      "mana": 1.5, 
+      "agility": 1.1, 
+      "strength": 1.4, 
+      "stamina": 1.1 
+    },
+    "recommendedClasses": ["Warlock", "Dark Knight", "Sorcerer"]
+  },
+  {
+    "name": "Vampire",
+    "description": "Immortal nocturnal aristocrats.",
+    "strengths": ["Life steal", "Agility", "Regeneration"],
+    "weaknesses": ["Sunlight", "Silver", "Blood dependence"],
+    "attributes": 
+    { 
+      "hp": 1.1, 
+      "mana": 1.3, 
+      "agility": 1.6, 
+      "strength": 1.3, 
+      "stamina": 1.2 
+    },
+    "recommendedClasses": ["Blood Mage", "Nightblade", "Assassin"]
+  },
+  {
+    "name": "Celestial",
+    "description": "Divine winged beings.",
+    "strengths": ["Flight", "Holy resistance", "Magic recovery"],
+    "weaknesses": ["Weak to void", "Fragile bones", "Strict codes"],
+    "attributes": 
+    { 
+      "hp": 0.9, 
+      "mana": 1.8, 
+      "agility": 1.4, 
+      "strength": 0.8, 
+      "stamina": 1.1 
+    },
+    "recommendedClasses": ["Saint", "Priest", "Valkyrie"]
+  },
+  {
+    "name": "Fairy",
+    "description": "Tiny mana entities.",
+    "strengths": ["Immune to physical", "Levitation", "Phase walls"],
+    "weaknesses": ["Low HP", "Weak to Cold Iron", "Cannot wield gear"],
+    "attributes": 
+    { 
+      "hp": 0.2, 
+      "mana": 2.2, 
+      "agility": 1.8, 
+      "strength": 0.1, 
+      "stamina": 0.7 
+    },
+    "recommendedClasses": ["Elementalist", "Enchanter", "Illusionist"]
+  },
+  {
+    "name": "Machina",
+    "description": "Mechanical techno-organic beings.",
+    "strengths": ["Immune to status", "Precision", "Self-repair"],
+    "weaknesses": ["Weak to lightning", "No natural regen", "Locked stats"],
+    "attributes": 
+    { 
+      "hp": 1.8, 
+      "mana": 0.5, 
+      "agility": 0.9, 
+      "strength": 1.6, 
+      "stamina": 2.0 
+    },
+    "recommendedClasses": ["Artificer", "Gunlocker", "Mecha-Knight"]
+  },
+  {
+    "name": "Goblin",
+    "description": "Weak but fast-breeding monsters.",
+    "strengths": ["Reproduction", "Group coordination", "Toxin resistance"],
+    "weaknesses": ["Low stats", "Fear prone", "Weak to holy"],
+    "attributes": 
+    { 
+      "hp": 0.5, 
+      "mana": 0.2, 
+      "agility": 1.2, 
+      "strength": 0.5, 
+      "stamina": 0.7 
+    },
+    "recommendedClasses": ["Raider", "Skirmisher", "Shaman"]
+  },
+  {
     "name": "Orc",
-    "description": "Strong and relentless warriors.",
-    "strengths": ["Strength", "Stamina"],
-    "weaknesses": ["Low Mana"],
-    "attributes": { "hp": 1.5, "mana": 0.6, "agility": 0.9, "strength": 1.6, "stamina": 1.4 },
-    "recommendedClasses": ["Barbarian", "Fighter"]
+    "description": "Savage bulky monsters.",
+    "strengths": ["Muscle density", "Low-health bonus", "Resistance to stagger"],
+    "weaknesses": ["Large target", "Low mana", "Reckless"],
+    "attributes": 
+    { 
+      "hp": 1.9, 
+      "mana": 0.1, 
+      "agility": 0.7, 
+      "strength": 1.8, 
+      "stamina": 1.5 
+    },
+    "recommendedClasses": ["Berserker", "Warlord", "Gladiator"]
+  },
+  {
+    "name": "Insectoid",
+    "description": "Hive-minded exoskeleton race.",
+    "strengths": ["Hive-mind", "Chitin armor", "Swarm synergy"],
+    "weaknesses": ["Weak to fire/acid", "Leader dependence", "No creativity"],
+    "attributes": 
+    { 
+      "hp": 0.8, 
+      "mana": 0.6, 
+      "agility": 1.3, 
+      "strength": 1.1, 
+      "stamina": 1.6 
+    },
+    "recommendedClasses": ["Swarm Guard", "Hive Assassin", "Chitin Vanguard"]
   }
 ]

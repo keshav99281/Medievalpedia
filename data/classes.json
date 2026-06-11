@@ -1,14 +1,180 @@
 [
   {
-    "name": "Wizard",
-    "description": "Masters of arcane magic.",
+    "name": "Warrior",
+    "description": "Versatile master of medieval weaponry.",
+    "compatibleEquipment": ["Sword", "Shield", "Armor"],
+    "compatibleElements": ["Steel", "Earth"]
+  },
+  {
+    "name": "Knight",
+    "description": "Heavily armored protector bound by honor.",
+    "compatibleEquipment": ["Lance", "Shield", "Heavy Armor"],
+    "compatibleElements": ["Steel", "Light"]
+  },
+  {
+    "name": "Paladin",
+    "description": "Tank combining divine healing with heavy armor.",
+    "compatibleEquipment": ["Sword", "Shield", "Plate Armor"],
+    "compatibleElements": ["Light", "Radiant"]
+  },
+  {
+    "name": "Berserker",
+    "description": "Rage-fueled warrior with overwhelming offense.",
+    "compatibleEquipment": ["Great Axe", "Two-Handed Sword", "Heavy Armor"],
+    "compatibleElements": ["Fire", "Earth"]
+  },
+  {
+    "name": "Guardian",
+    "description": "Frontliner focused on shields and crowd control.",
+    "compatibleEquipment": ["Tower Shield", "Mace", "Heavy Armor"],
+    "compatibleElements": ["Steel", "Earth"]
+  },
+  {
+    "name": "Gladiator",
+    "description": "Crowd-pleasing fighter with dual weapons.",
+    "compatibleEquipment": ["Dual Swords", "Daggers", "Light Armor"],
+    "compatibleElements": ["Air", "Fire"]
+  },
+
+  {
+    "name": "Thief",
+    "description": "Stealthy rogue skilled in lockpicking and agility.",
+    "compatibleEquipment": ["Daggers", "Light Armor", "Tools"],
+    "compatibleElements": ["Air", "Shadow"]
+  },
+  {
+    "name": "Assassin",
+    "description": "Stealth killer using poisons and precision strikes.",
+    "compatibleEquipment": ["Daggers", "Throwing Knives", "Light Armor"],
+    "compatibleElements": ["Shadow", "Poison"]
+  },
+  {
+    "name": "Ranger",
+    "description": "Long-range marksman with wilderness survival skills.",
+    "compatibleEquipment": ["Bow", "Crossbow", "Leather Armor"],
+    "compatibleElements": ["Nature", "Air"]
+  },
+  {
+    "name": "Monk",
+    "description": "Unarmored fighter using fists and ki energy.",
+    "compatibleEquipment": ["Fist Weapons", "Cloth Garb"],
+    "compatibleElements": ["Air", "Light"]
+  },
+  {
+    "name": "Scout",
+    "description": "Agile tracker and information gatherer.",
+    "compatibleEquipment": ["Daggers", "Bow", "Light Armor"],
+    "compatibleElements": ["Air", "Nature"]
+  },
+  {
+    "name": "Ninja",
+    "description": "Stealthy eastern warrior with ninjutsu.",
+    "compatibleEquipment": ["Shuriken", "Katana", "Light Armor"],
+    "compatibleElements": ["Shadow", "Lightning"]
+  },
+
+  {
+    "name": "Mage",
+    "description": "Classic caster manipulating elemental forces.",
     "compatibleEquipment": ["Staff", "Robes"],
     "compatibleElements": ["Fire", "Ice", "Lightning"]
   },
   {
-    "name": "Paladin",
-    "description": "Holy knights with divine powers.",
-    "compatibleEquipment": ["Sword", "Shield", "Plate Armor"],
+    "name": "Sorcerer",
+    "description": "Innate spellcaster wielding chaotic magic.",
+    "compatibleEquipment": ["Wand", "Robes"],
+    "compatibleElements": ["Fire", "Shadow", "Chaos"]
+  },
+  {
+    "name": "Warlock",
+    "description": "Dark caster empowered by demonic pacts.",
+    "compatibleEquipment": ["Staff", "Dark Robes"],
+    "compatibleElements": ["Shadow", "Void"]
+  },
+  {
+    "name": "Necromancer",
+    "description": "Master of death magic and undead summoning.",
+    "compatibleEquipment": ["Staff", "Bone Relics", "Robes"],
+    "compatibleElements": ["Dark", "Bone", "Corpse"]
+  },
+  {
+    "name": "Elementalist",
+    "description": "Specialist in manipulating elemental laws.",
+    "compatibleEquipment": ["Staff", "Robes"],
+    "compatibleElements": ["Fire", "Water", "Earth", "Air"]
+  },
+  {
+    "name": "Summoner",
+    "description": "Caster who conjures spirits and beasts.",
+    "compatibleEquipment": ["Staff", "Totems", "Robes"],
+    "compatibleElements": ["Aether", "Nature"]
+  },
+
+  {
+    "name": "Cleric",
+    "description": "Divine healer and curse remover.",
+    "compatibleEquipment": ["Mace", "Holy Symbol", "Robes"],
     "compatibleElements": ["Light", "Radiant"]
+  },
+  {
+    "name": "Druid",
+    "description": "Nature-bound caster with shapeshifting powers.",
+    "compatibleEquipment": ["Staff", "Totems", "Robes"],
+    "compatibleElements": ["Nature", "Earth", "Water"]
+  },
+  {
+    "name": "Bard",
+    "description": "Performer who buffs allies with music.",
+    "compatibleEquipment": ["Instrument", "Light Armor"],
+    "compatibleElements": ["Sound", "Mind"]
+  },
+  {
+    "name": "Enchanter",
+    "description": "Mage boosting allies and weapons.",
+    "compatibleEquipment": ["Wand", "Robes"],
+    "compatibleElements": ["Light", "Aether"]
+  },
+  {
+    "name": "Shaman",
+    "description": "Spiritual caster using totems and curses.",
+    "compatibleEquipment": ["Totems", "Staff", "Robes"],
+    "compatibleElements": ["Nature", "Spirit", "Shadow"]
+  },
+
+  {
+    "name": "Spellblade",
+    "description": "Warrior who infuses blades with magic.",
+    "compatibleEquipment": ["Sword", "Armor"],
+    "compatibleElements": ["Fire", "Ice", "Lightning"]
+  },
+  {
+    "name": "Dark Knight",
+    "description": "Frontliner using dark powers at a cost.",
+    "compatibleEquipment": ["Greatsword", "Dark Armor"],
+    "compatibleElements": ["Shadow", "Void"]
+  },
+  {
+    "name": "Poison Master",
+    "description": "Combat chemist using poisons and mixtures.",
+    "compatibleEquipment": ["Flasks", "Tools", "Light Armor"],
+    "compatibleElements": ["Poison", "Chaos"]
+  },
+  {
+    "name": "Beast Tamer",
+    "description": "Warrior commanding fantasy creatures.",
+    "compatibleEquipment": ["Whip", "Leather Armor"],
+    "compatibleElements": ["Nature", "Soul"]
+  },
+  {
+    "name": "Runesmith",
+    "description": "Craftsman manipulating magical gear.",
+    "compatibleEquipment": ["Hammer", "Tools", "Armor"],
+    "compatibleElements": ["Steel", "Aether"]
+  },
+  {
+    "name": "Hero",
+    "description": "Balanced omni-class with swordsmanship and light magic.",
+    "compatibleEquipment": ["Sword", "Shield", "Armor"],
+    "compatibleElements": ["Light", "Radiant", "Aether"]
   }
 ]

@@ -1,4 +1,145 @@
 [
-  { "name": "Fire", "color": "#ff4500", "environment": "Volcanoes, deserts" },
-  { "name": "Water", "color": "#1e90ff", "environment": "Oceans, rivers" }
+  {
+    "name": "Fire",
+    "color": "#FF4500",
+    "environment": "Volcanoes, deserts"
+  },
+  {
+    "name": "Water",
+    "color": "#1E90FF",
+    "environment": "Oceans, rivers, lakes"
+  },
+  {
+    "name": "Earth",
+    "color": "#8B4513",
+    "environment": "Mountains, caves, fertile soil"
+  },
+  {
+    "name": "Wind",
+    "color": "#7FFFD4",
+    "environment": "Open skies, mountain peaks"
+  },
+  {
+    "name": "Lightning",
+    "color": "#FFD700",
+    "environment": "Storm clouds, thunderstorms"
+  },
+  {
+    "name": "Ice",
+    "color": "#E0FFFF",
+    "environment": "Glaciers, tundras, frozen lakes"
+  },
+  {
+    "name": "Plant",
+    "color": "#228B22",
+    "environment": "Forests, jungles, grasslands"
+  },
+  {
+    "name": "Metal",
+    "color": "#C0C0C0",
+    "environment": "Forged in smithies, battlefields"
+  },
+
+  {
+    "name": "Magma",
+    "color": "#E63946",
+    "environment": "Molten cores, volcanic eruptions"
+  },
+  {
+    "name": "Swamp",
+    "color": "#6B8E23",
+    "environment": "Swamps, marshlands"
+  },
+  {
+    "name": "Storm",
+    "color": "#4B0082",
+    "environment": "Tempest seas, raging skies"
+  },
+  {
+    "name": "Sand",
+    "color": "#EDC9AF",
+    "environment": "Deserts, dunes"
+  },
+  {
+    "name": "Steam",
+    "color": "#F0F8FF",
+    "environment": "Hot springs, geysers"
+  },
+  {
+    "name": "Crystal",
+    "color": "#E0F7FA",
+    "environment": "Crystal caverns, enchanted forges"
+  },
+  {
+    "name": "Smoke",
+    "color": "#696969",
+    "environment": "Burnt ruins, volcanic plains"
+  },
+
+  {
+    "name": "Light",
+    "color": "#FFFFFF",
+    "environment": "Sunlit plains, sacred temples"
+  },
+  {
+    "name": "Dark",
+    "color": "#0A0A0A",
+    "environment": "Caves, void realms"
+  },
+  {
+    "name": "Void",
+    "color": "#1A0033",
+    "environment": "Cosmic abyss, dimensional rifts"
+  },
+  {
+    "name": "Space",
+    "color": "#0B3C5D",
+    "environment": "Nebulae, starfields"
+  },
+  {
+    "name": "Time",
+    "color": "#50C878",
+    "environment": "Temporal rifts, ancient ruins"
+  },
+  {
+    "name": "Aether",
+    "color": "#FF007F",
+    "environment": "Arcane flows, ley lines"
+  },
+
+  {
+    "name": "Poison",
+    "color": "#9400D3",
+    "environment": "Toxic swamps, alchemical labs"
+  },
+  {
+    "name": "Blood",
+    "color": "#800020",
+    "environment": "Battlefields, sacrificial altars"
+  },
+  {
+    "name": "Death",
+    "color": "#FFFFF0",
+    "environment": "Graveyards, ossuaries"
+  },
+  {
+    "name": "Sound",
+    "color": "#D3D3D3",
+    "environment": "Echoing caverns, resonant halls"
+  },
+  {
+    "name": "Illusion",
+    "color": "#FF69B4",
+    "environment": "Dreamscapes, psychic realms"
+  },
+  {
+    "name": "Chaos",
+    "color": "#A30000",
+    "environment": "Unstable rifts, warzones"
+  },
+  {
+    "name": "Order",
+    "color": "#FFDF00",
+    "environment": "Sacred halls, structured domains"
+  }
 ]

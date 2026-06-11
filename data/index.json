@@ -1,0 +1,12 @@
+{
+  "project": "Medievalpedia",
+  "schemaVersion": "1.0",
+
+  "datasets": {
+    "races": "races.json",
+    "classes": "classes.json",
+    "skills": "skills.json",
+    "elements": "elements.json",
+    "metals": "metals.json"
+  }
+}

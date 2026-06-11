@@ -1,4 +1,131 @@
 [
-  { "name": "Mithral", "description": "Lightweight magical metal.", "origin": "Deep mines", "compatibleElements": ["Air", "Light"] },
-  { "name": "Adamantine", "description": "Nearly indestructible.", "origin": "Rare veins", "compatibleElements": ["Earth"] }
+  {
+    "name": "Iron",
+    "description": "Common base metal used for weapons and tools.",
+    "origin": "Underground mines, mountain quarries, rocky hillsides",
+    "compatibleElements": ["Earth"]
+  },
+  {
+    "name": "Copper",
+    "description": "Conductive metal tied to volcanic heat.",
+    "origin": "Volcanic foothills, shallow subterranean veins",
+    "compatibleElements": ["Fire"]
+  },
+  {
+    "name": "Silver",
+    "description": "Precious metal locked in frozen ranges.",
+    "origin": "Glacial caverns, tundra mountain ranges",
+    "compatibleElements": ["Ice"]
+  },
+  {
+    "name": "Gold",
+    "description": "Rare, radiant metal found in riverbeds.",
+    "origin": "Riverbeds, alluvial plains, quartz-rich veins",
+    "compatibleElements": ["Lightning"]
+  },
+  {
+    "name": "Lead",
+    "description": "Heavy toxic metal linked to poison.",
+    "origin": "Subterranean swamps, gas-filled caves",
+    "compatibleElements": ["Poison"]
+  },
+  {
+    "name": "Steel",
+    "description": "Forged alloy of iron and carbon.",
+    "origin": "Dwarven blast furnaces, manufactured only",
+    "compatibleElements": ["Metal"]
+  },
+
+  {
+    "name": "Mithril",
+    "description": "Light, magical metal of legends.",
+    "origin": "Cloud mountain peaks, sky-facing cliffs",
+    "compatibleElements": ["Wind"]
+  },
+  {
+    "name": "Adamantite",
+    "description": "Extremely durable mythical ore.",
+    "origin": "Deep Underdark caverns near the mantle",
+    "compatibleElements": ["Earth"]
+  },
+  {
+    "name": "Orichalcum",
+    "description": "Ancient storm-forged legendary metal.",
+    "origin": "Sunken ruins, thunderstorm-plagued islands",
+    "compatibleElements": ["Lightning"]
+  },
+  {
+    "name": "Hihi'irokane",
+    "description": "Volcanic fire-infused mythical ore.",
+    "origin": "Volcanic craters, magma rivers",
+    "compatibleElements": ["Fire"]
+  },
+  {
+    "name": "Cold Iron",
+    "description": "Shadow-bound iron untouched by sunlight.",
+    "origin": "Abyssal trenches, sunless hollows",
+    "compatibleElements": ["Dark"]
+  },
+  {
+    "name": "Damascus Steel",
+    "description": "Folded alloy crafted by guilds.",
+    "origin": "Secret elven or eastern blacksmith guilds",
+    "compatibleElements": ["Sound"]
+  },
+
+  {
+    "name": "Starmetal",
+    "description": "Meteoric ore from cosmic impacts.",
+    "origin": "Impact craters, deserts, high peaks",
+    "compatibleElements": ["Space"]
+  },
+  {
+    "name": "Chronomium",
+    "description": "Temporal ore infused with time magic.",
+    "origin": "Ancient ruins, temporal anomalies",
+    "compatibleElements": ["Time"]
+  },
+  {
+    "name": "Uru",
+    "description": "Divine ore blessed by holy light.",
+    "origin": "Sky islands, divine realms, holy sanctuaries",
+    "compatibleElements": ["Light"]
+  },
+  {
+    "name": "Soulsteel",
+    "description": "Necrotic metal infused with souls.",
+    "origin": "Underworld, graveyards, ancient battlefields",
+    "compatibleElements": ["Void"]
+  },
+  {
+    "name": "Quicksilver",
+    "description": "Liquid shifting metallic element.",
+    "origin": "Thermal springs, underground rivers",
+    "compatibleElements": ["Water"]
+  },
+
+  {
+    "name": "Scarletite",
+    "description": "Molten crimson ore tied to magma.",
+    "origin": "Geothermal vents, oceanic trenches, volcanoes",
+    "compatibleElements": ["Lava"]
+  },
+  {
+    "name": "Corrosium",
+    "description": "Venomous ore infused with acid.",
+    "origin": "Acidic wastelands, tar pits, monster marshes",
+    "compatibleElements": ["Poison"]
+  },
+  {
+    "name": "Blood-Iron",
+    "description": "Cursed iron soaked in warrior blood.",
+    "origin": "Battlegrounds, execution sites",
+    "compatibleElements": ["Blood"]
+  },
+  {
+    "name": "Phantasm Metal",
+    "description": "Illusory ore bending reality.",
+    "origin": "Feywild realms, labyrinths, mirage deserts",
+    "compatibleElements": ["Mind"]
+  }
 ]
